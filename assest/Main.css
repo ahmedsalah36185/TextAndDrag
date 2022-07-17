@@ -1,0 +1,80 @@
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+}
+
+.flexed{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    display: block;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.inputs_field{
+    width:400px;
+    height: 200px;
+}
+.BLO{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+    margin: 4px;
+    color: rgb(0, 0, 0);
+    border-style: solid dashed solid dashed;
+    border-width: 5px 10px 10px 10px;
+    border-color: rgb(145, 145, 144) rgb(190, 186, 186) rgb(80, 80, 80) rgb(190, 186, 186);
+    
+}
+.Blocks{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+
+}
+.TXT{
+    background-color:greenyellow;
+    margin-top:5px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+}
+.p_txt{
+    color: rgb(255, 0, 0);
+    margin-right: 30px;
+    cursor: move;
+    top: 8px;
+    left: 4px;
+    position: relative;
+}
+.del_btn{
+    background-color: rgb(244, 156, 156);
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    top: 4px;
+    position: relative;
+}
+.del_btn:hover{
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+@media all and (max-width:775px) {
+    .inputs_field{
+        display: none;
+    }
+    .Blocks{
+        display: none;
+    }
+}
