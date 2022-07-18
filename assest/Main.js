@@ -10,7 +10,7 @@ let get_drg = null;
 // add anew TXt
 btn.onclick = function () { 
     if (inp.value != "") { 
-        Blocks[0].innerHTML += `<div class="TXT"><p class="p_txt" draggable="true">${inp.value}</p><button class="btn del_btn">DEL</button></div>`;
+        Blocks[0].innerHTML += `<div class="TXT container"><p class="p_txt" draggable="true">${inp.value}</p><button class="btn del_btn">DEL</button></div>`;
         inp.value =''
     }
     dragTXT();

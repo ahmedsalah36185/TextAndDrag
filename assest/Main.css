@@ -1,4 +1,5 @@
 body{
+    margin: 10px;
     font-size: 16px;
     font-family: sans-serif;
     font-style: italic;
@@ -11,9 +12,7 @@ body{
     width: auto;
     height: auto;
     display: block;
-    flex-direction: column;
-    padding: 100px;
-    justify-content: center;
+
     align-items: center;
 }
 .inputs_field{
@@ -21,26 +20,15 @@ body{
     height: 200px;
 }
 .BLO{
+    overflow:scroll;
     background-color: rgb(255, 255, 255);
     padding: 10px;
     font-size: 20px;
-    margin: 4px;
     color: rgb(0, 0, 0);
     border-style: solid dashed solid dashed;
-    border-width: 5px 10px 10px 10px;
+    border-width: 2px 4px 4px 4px;
     border-color: rgb(145, 145, 144) rgb(190, 186, 186) rgb(80, 80, 80) rgb(190, 186, 186);
     
-}
-.Blocks{
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    width: 200px;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    align-items: flex-start;
-
 }
 .TXT{
     background-color:greenyellow;
@@ -69,12 +57,4 @@ body{
 .del_btn:hover{
     color: white;
     background-color: rgb(255, 0, 0);
-}
-@media all and (max-width:775px) {
-    .inputs_field{
-        display: none;
-    }
-    .Blocks{
-        display: none;
-    }
 }
